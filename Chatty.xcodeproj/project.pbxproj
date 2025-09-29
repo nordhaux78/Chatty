@@ -45,6 +45,21 @@
 			path = ChattyUITests;
 			sourceTree = "<group>";
 		};
+		B3E1A8752E8AEB5B0016B531 /* Sources  */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Sources ";
+			sourceTree = "<group>";
+		};
+		B3E1A8A92E8AED8D0016B531 /* Support */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Support;
+			sourceTree = "<group>";
+		};
+		B3E1A8AC2E8AED8D0016B531 /* Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +90,9 @@
 		B3E1A8392E8ADEFF0016B531 = {
 			isa = PBXGroup;
 			children = (
+				B3E1A8A92E8AED8D0016B531 /* Support */,
+				B3E1A8AC2E8AED8D0016B531 /* Tests */,
+				B3E1A8752E8AEB5B0016B531 /* Sources  */,
 				B3E1A8442E8ADEFF0016B531 /* Chatty */,
 				B3E1A8522E8ADF000016B531 /* ChattyTests */,
 				B3E1A85C2E8ADF000016B531 /* ChattyUITests */,
@@ -109,6 +127,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				B3E1A8442E8ADEFF0016B531 /* Chatty */,
+				B3E1A8752E8AEB5B0016B531 /* Sources  */,
+				B3E1A8A92E8AED8D0016B531 /* Support */,
+				B3E1A8AC2E8AED8D0016B531 /* Tests */,
 			);
 			name = Chatty;
 			packageProductDependencies = (
@@ -405,6 +426,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,6 +435,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nordhaux.Chatty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -437,6 +463,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,6 +472,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nordhaux.Chatty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
