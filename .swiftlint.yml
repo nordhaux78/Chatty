@@ -1,0 +1,14 @@
+disabled_rules:
+  - trailing_whitespace
+  - identifier_name
+  - todo
+opt_in_rules:
+  - empty_count
+  - redundant_nil_coalescing
+  - explicit_init
+included:
+  - Chatty
+excluded:
+  - DerivedData
+reporter: "xcode"
+
